@@ -1,0 +1,195 @@
+{
+    "user_id": "6639fa0ad7823497b48510f0",
+    "workflow": {
+        "id": "663c6f91f248368a9b9511d4",
+        "type": "groupchat",
+        "name": "Comprehensive User Workflow",
+        "description": "A workflow designed to comprehensively handle user requests across multiple domains.",
+        "summary_method": "last",
+        "user_id": "6639fa0ad7823497b48510f0",
+        "timestamp": "2024-05-09T06:39:13.451Z",
+        "sender": {
+            "user_id": "6639fa0ad7823497b48510f0",
+            "type": "userproxy",
+            "config": {
+                "llm_config": {
+                    "config_list": [
+                        {
+                            "model": "gpt-4-1106-preview"
+                        }
+                    ],
+                    "temperature": 0.1,
+                    "cache_seed": 42,
+                    "timeout": 600,
+                    "max_tokens": 4000
+                },
+                "max_consecutive_auto_reply": 10,
+                "default_auto_reply": "What else can I assist you with?",
+                "system_message": "I am here to assist you with a variety of tasks.",
+                "name": "General Task Agent",
+                "is_termination_msg": false,
+                "human_input_mode": "NEVER"
+            },
+            "skills": [
+                {
+                    "user_id": "66334324160bb860766e4549",
+                    "title": "example2",
+                    "content": "example2",
+                    "file_name": "example2",
+                    "id": "6639ca1079a5687d00a2e15c",
+                    "timestamp": "2024-05-07T06:28:32.662Z"
+                },
+                {
+                    "user_id": "66334324160bb860766e4549",
+                    "title": "example3",
+                    "content": "example3",
+                    "file_name": "example3",
+                    "id": "6639ca1a79a5687d00a2e15f",
+                    "timestamp": "2024-05-07T06:28:42.537Z"
+                }
+            ],
+            "timestamp": "2024-05-08T05:19:59.676Z",
+            "id": "663b0b7fb2f170f9992f9662"
+        },
+        "receiver": {
+            "type": "groupchat",
+            "groupchat_config": {
+                "agents": [
+                    {
+                        "user_id": "6639fa0ad7823497b48510f0",
+                        "type": "assistant",
+                        "config": {
+                            "llm_config": {
+                                "config_list": [
+                                    {
+                                        "model": "gpt-4-1106-preview"
+                                    }
+                                ],
+                                "temperature": 0.1,
+                                "cache_seed": 42,
+                                "timeout": 600,
+                                "max_tokens": 4000
+                            },
+                            "max_consecutive_auto_reply": 10,
+                            "default_auto_reply": "What else can I assist you with?",
+                            "system_message": "I am here to assist you with a variety of tasks.",
+                            "name": "General Task Agent",
+                            "is_termination_msg": false,
+                            "human_input_mode": "NEVER"
+                        },
+                        "skills": [
+                            {
+                                "user_id": "66334324160bb860766e4549",
+                                "title": "example2",
+                                "content": "example2",
+                                "file_name": "example2",
+                                "id": "6639ca1079a5687d00a2e15c",
+                                "timestamp": "2024-05-07T06:28:32.662Z"
+                            },
+                            {
+                                "user_id": "66334324160bb860766e4549",
+                                "title": "example3",
+                                "content": "example3",
+                                "file_name": "example3",
+                                "id": "6639ca1a79a5687d00a2e15f",
+                                "timestamp": "2024-05-07T06:28:42.537Z"
+                            }
+                        ],
+                        "timestamp": "2024-05-08T05:19:59.676Z",
+                        "id": "663b0b7fb2f170f9992f9662"
+                    },
+                    {
+                        "user_id": "6639fa0ad7823497b48510f0",
+                        "type": "assistant",
+                        "config": {
+                            "llm_config": {
+                                "config_list": [
+                                    {
+                                        "model": "gpt-4-1106-preview"
+                                    }
+                                ],
+                                "temperature": 0.1,
+                                "cache_seed": 42,
+                                "timeout": 600,
+                                "max_tokens": 4000
+                            },
+                            "max_consecutive_auto_reply": 10,
+                            "default_auto_reply": "What else can I assist you with?",
+                            "system_message": "I am here to assist you with a variety of tasks.",
+                            "name": "General Task Agent",
+                            "is_termination_msg": false,
+                            "human_input_mode": "NEVER"
+                        },
+                        "skills": [
+                            {
+                                "user_id": "66334324160bb860766e4549",
+                                "title": "example2",
+                                "content": "example2",
+                                "file_name": "example2",
+                                "id": "6639ca1079a5687d00a2e15c",
+                                "timestamp": "2024-05-07T06:28:32.662Z"
+                            },
+                            {
+                                "user_id": "66334324160bb860766e4549",
+                                "title": "example3",
+                                "content": "example3",
+                                "file_name": "example3",
+                                "id": "6639ca1a79a5687d00a2e15f",
+                                "timestamp": "2024-05-07T06:28:42.537Z"
+                            }
+                        ],
+                        "timestamp": "2024-05-08T06:32:56.387Z",
+                        "id": "663b1c9871c221e7f622a72c"
+                    },
+                    {
+                        "user_id": "6639fa0ad7823497b48510f0",
+                        "type": "assistant",
+                        "config": {
+                            "llm_config": {
+                                "config_list": [
+                                    {
+                                        "model": "gpt-4-1106-preview"
+                                    }
+                                ],
+                                "temperature": 0.1,
+                                "cache_seed": 42,
+                                "timeout": 600,
+                                "max_tokens": 4000
+                            },
+                            "max_consecutive_auto_reply": 10,
+                            "default_auto_reply": "What else can I assist you with?",
+                            "system_message": "I am here to assist you with a variety of tasks.",
+                            "name": "General Task Agent",
+                            "is_termination_msg": false,
+                            "human_input_mode": "NEVER"
+                        },
+                        "skills": [
+                            {
+                                "user_id": "66334324160bb860766e4549",
+                                "title": "example2",
+                                "content": "example2",
+                                "file_name": "example2",
+                                "id": "6639ca1079a5687d00a2e15c",
+                                "timestamp": "2024-05-07T06:28:32.662Z"
+                            },
+                            {
+                                "user_id": "66334324160bb860766e4549",
+                                "title": "example3",
+                                "content": "example3",
+                                "file_name": "example3",
+                                "id": "6639ca1a79a5687d00a2e15f",
+                                "timestamp": "2024-05-07T06:28:42.537Z"
+                            }
+                        ],
+                        "timestamp": "2024-05-08T06:32:58.325Z",
+                        "id": "663b1c9a71c221e7f622a732"
+                    }
+                ],
+                "admin_name": "Admin"
+            },
+            "id": "663c65fa9cec7f6a14d87570",
+            "user_id": "6639fa0ad7823497b48510f0",
+            "timestamp": "2024-05-09T06:39:13.451Z"
+        }
+    }
+}
